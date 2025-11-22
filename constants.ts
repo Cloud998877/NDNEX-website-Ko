@@ -389,7 +389,7 @@ export const UI_TEXT = {
     whyTitleHighlight2: "Access",
     whyDescription: "급변하는 헬스케어 환경에서 데이터는 전략적 인사이트와 결합될 때 비로소 진정한 가치를 발휘합니다.\n엔디넥스는 깊이 있는 과학적 전문성과 시장에 대한 예리한 통찰을 바탕으로, 주요 의사결정권자를 설득할 수 있는 강력한 Value Story를 구축합니다.",
     evidenceGeneration: "Evidence Generation",
-    evidenceDesc: "데이터 기반 통찰력을 통해 규제 및 급여 성공을 보장하는 강력한 방법론.",
+    evidenceDesc: "데이터 기반 통찰력을 통해 규제 및 급여 성공을 보장",
     learnMission: "Learn about our Mission",
     learnMore: "Learn More",
     ourClients: "Our Clients",
