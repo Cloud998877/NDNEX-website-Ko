@@ -186,7 +186,7 @@ const SERVICES_KO: Service[] = [
     id: 'heor',
     title: 'HEOR',
     description: "임상적 유용성과 비용효과성을 입증하는 과학적이고 체계적인 가치 평가",
-    longDescription: "가치 기반 헬스케어(Value-based Healthcare) 시대, 체계적인 근거는 선택이 아닌 필수입니다.. NDNEX는 심평원(HIRA) 및 글로벌 가이드라인을 준수하는 엄격한 HEOR 연구를 수행합니다. 직접 비교 임상이 부재한 경우에도 MAIC, NMA 등 고도화된 방법론을 활용해 근거를 통합하고, 투명하고 설득력 있는 경제성 평가 모델(CEA, BIM)을 구축하여 비용효과성을 입증합니다.",
+    longDescription: "가치 기반 헬스케어(Value-based Healthcare) 시대, 체계적인 근거는 선택이 아닌 필수입니다. NDNEX는 심평원(HIRA) 및 글로벌 가이드라인을 준수하는 엄격한 HEOR 연구를 수행합니다. 직접 비교 임상이 부재한 경우에도 MAIC, NMA 등 고도화된 방법론을 활용해 근거를 통합하고, 투명하고 설득력 있는 경제성 평가 모델(CEA, BIM)을 구축하여 비용효과성을 입증합니다.",
     iconName: 'BarChart',
     features: [
       "Matching-adjusted Indirect Comparison (MAIC) & NMA",
