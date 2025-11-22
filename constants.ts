@@ -493,7 +493,7 @@ export const PUBLICATIONS: Publication[] = [
 export const CLIENTS: Client[] = [
   { 
     name: "Ahn-Gook", 
-    logo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 100'%3E%3Cg transform='translate(10,10) scale(0.8)'%3E%3Cpath d='M20,70 Q10,40 40,20 Q70,10 90,30 Q100,50 80,80 Q50,90 20,70 Z' fill='%23E60012' /%3E%3Cpath d='M20,70 L45,45 M25,75 L50,50 M30,80 L55,55 M35,85 L60,60 M40,90 L65,65 M45,95 L70,70 M50,100 L75,75 M55,105 L80,80 M60,110 L85,85' stroke='white' stroke-width='3' /%3E%3C/g%3E%3Ctext x='90' y='60' font-family='sans-serif' font-weight='bold' font-size='40' fill='%23333'%3E안국약품(주)%3C/text%3E%3C/svg%3E",
+    logo: "https://www.awonder.co.kr/shopimages/ahngookthc/all_og__20250611165401phpFY489X.jpg",
     link: "https://www.ahn-gook.com/" 
   },
   { name: "Amgen", logo: "https://logos-world.net/wp-content/uploads/2023/06/Amgen-Logo.jpg", link: "https://www.amgen.co.kr/" },
@@ -506,7 +506,7 @@ export const CLIENTS: Client[] = [
   }, 
   { 
     name: "Binex", 
-    logo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 60'%3E%3Cpath d='M10 10h180l-20 40H10z' fill='%23DA291C'/%3E%3Ctext x='95' y='43' font-family='Arial, sans-serif' font-weight='bold' font-size='38' fill='white' text-anchor='middle'%3EBINEX%3C/text%3E%3C/svg%3E", 
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNKUe7AGF4_5o92a1W5wNK98oZze9Q9xyVFQ&s", 
     link: "http://www.bi-nex.com/" 
   },
   { 
