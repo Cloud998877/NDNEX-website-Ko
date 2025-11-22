@@ -23,7 +23,8 @@ export const Home: React.FC = () => {
     "Hyundai",
     "Myungin",
     "PharmaEssentia",
-    "Roche"
+    "Roche",
+    "Sanofi"
   ];
 
   // List of clients that need extra large logo display (approx 2x)
@@ -56,7 +57,6 @@ export const Home: React.FC = () => {
   // List of clients that need smaller logo display (approx 0.5x)
   const SMALL_LOGOS = [
     "CSL Behring",
-    "Sanofi"
   ];
 
   // List of clients that need extra small logo display (approx 0.4x)
