@@ -175,10 +175,10 @@ const SERVICES_KO: Service[] = [
     features: [
       "Value Identification 및 Value Story 개발",
       "약가 타당성 검토 (Pricing Feasibility Check)",
-      "급여 등재 신청서(Value Dossier) 작성 및 지원",
+      "약제평가신청서 작성 및 지원",
       "Pricing & Market Access 전략 수립",
       "의료기술평가 (HTA) 대응",
-      "급여 정책 인사이트(Reimbursement Policy Insight) 제공",
+      "급여 정책 인사이트 제공",
       "급여 적정성 재평가 대응"
     ]
   },
@@ -190,11 +190,11 @@ const SERVICES_KO: Service[] = [
     iconName: 'BarChart',
     features: [
       "Matching-adjusted Indirect Comparison (MAIC) & NMA",
-      "비용 효과 분석(CEA) & 의사결정 모델링",
-      "재정 영향 분석(Budget Impact Analysis)",
-      "체계적 문헌 고찰(SLR) & 메타 분석",
-      "Economic Burden 및 불확실성 분석",
-      "PRO (Patient reported outcome) & Utility Assessment"
+      "비용 효과 분석 & 의사결정 모델링",
+      "재정 영향 분석",
+      "체계적 문헌 고찰 & 메타 분석",
+      "질병 부담 및 불확실성 분석",
+      "환자 자기평가 건강상태"
     ]
   },
   {
@@ -204,11 +204,11 @@ const SERVICES_KO: Service[] = [
     longDescription: "통제된 임상시험 환경과 실제 진료 현장 간의 간극을 메우기 위해 RWE(Real World Evidence)의 중요성이 커지고 있습니다. 우리는 후향적 데이터 분석 및 차트 리뷰(Chart Review)를 통해 허가, 급여 등재, 시판 후 안전성 관리에 필요한 실제 임상 근거를 생성합니다. 한국의 실제 환자 여정(Patient Journey)과 치료 패턴을 반영한 고품질 연구를 통해 보험 당국이 신뢰할 수 있는 근거를 마련합니다.",
     iconName: 'Database',
     features: [
-      "역학(Epidemiology) 및 후향적 데이터베이스 연구",
+      "역학 및 후향적 데이터베이스 연구",
       "청구자료 및 행정 데이터 분석",
-      "의무기록 검토 연구 (Chart Review)",
-      "환자 및 의료진 설문조사 (Survey)",
-      "연구 결과 기반 논문 게재(Publication) 지원"
+      "의무기록 검토 연구",
+      "환자 및 의료진 설문조사",
+      "연구 결과 기반 논문 게재 지원"
     ]
   },
   {
@@ -218,7 +218,7 @@ const SERVICES_KO: Service[] = [
     longDescription: "시장의 흐름을 읽기 위해서는 속도와 대표성이 관건입니다. NDNEX는 건강보험심사평가원(HIRA) 및 국민건강보험공단(NHIS)의 전수 데이터를 분석하여 질병의 유병률, 환자 특성, 의료 자원 이용 현황에 대한 신속하고 정확한 인사이트를 제공합니다. 이러한 데이터 기반 접근은 시장 변화를 선제적으로 예측하고 정교한 전략을 수립하는 토대가 됩니다.",
     iconName: 'Server',
     features: [
-      "신속한 분석 결과(Rapid Turnaround) 제공",
+      "신속한 분석 결과 제공",
       "대표성 있는 전국민 데이터 활용 (HIRA, NHIS)",
       "플랫폼 기반의 다양한 데이터 제공",
       "급변하는 시장 환경에 대한 빠른 대응"
