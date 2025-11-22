@@ -15,7 +15,7 @@ export const Home: React.FC = () => {
 
   // List of clients that need huge logo display (approx 3x)
   const HUGE_LOGOS = [
-    "Daewoong"
+      "Ahn-Gook","Daewoong"
   ];
 
   // List of clients that need very large logo display (approx 2.5x)
@@ -29,7 +29,7 @@ export const Home: React.FC = () => {
 
   // List of clients that need extra large logo display (approx 2x)
   const EXTRA_LARGE_LOGOS = [
-    "Ahn-Gook",
+  
     "LitePharmTech",
     "Ipsen"
   ];
@@ -46,13 +46,13 @@ export const Home: React.FC = () => {
 
   // List of clients that need medium logo display (approx 0.8x)
   const MEDIUM_LOGOS = [
-    // Optus moved to EXTRA_SMALL
+    // Optus moved to EXTRA_SMALL, "Sanofi"
   ];
 
   // List of clients that need medium-small logo display (approx 0.6x)
   const MEDIUM_SMALL_LOGOS = [
-    "Kyowa Kirin", 
-     "Sanofi"
+    "Kyowa Kirin"
+  
   ];
 
   // List of clients that need smaller logo display (approx 0.5x)
