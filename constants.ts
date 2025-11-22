@@ -10,7 +10,7 @@ const COMPANY_INFO_EN = {
   phone: "02-568-1555",
   email: "info@ndnex.com",
   contactPersonEmail: "hyemin.ku@ndnex.com",
-  mission: "Increasing Patient Access to Treatment. We aim to expand healthcare coverage and ultimately increase patient access to treatment.",
+  mission: "Enhancing Patient Access to Treatment. We aim to expand healthcare coverage and ultimately increase patient access to treatment.",
   vision: "Customized Integrated Solutions. We provide tailored solutions that respond to changes in the healthcare paradigm with reliable evidence generation."
 };
 
@@ -161,8 +161,8 @@ const COMPANY_INFO_KO = {
   phone: "02-568-1555",
   email: "info@ndnex.com",
   contactPersonEmail: "hyemin.ku@ndnex.com",
-  mission: "환자의 치료접근성 강화 (Increasing Patient Access). 궁극적으로 헬스케어 보장성을 확대하여 환자들이 필요한 치료를 적시에 받을 수 있도록 기여합니다.",
-  vision: "고객 맞춤형 통합 솔루션 (Customized Integrated Solutions). 신뢰할 수 있는 근거(Evidence) 창출을 통해 변화하는 보건의료 패러다임에 최적화된 솔루션을 제시합니다."
+  mission: "환자의 치료접근성 강화 (Enhancing Patient Access). 헬스케어 보장성을 확대하여 환자들이 필요한 치료에 한 걸음 더 가까이 다가갈 수 있도록 기여합니다.",
+  vision: "고객 맞춤형 통합 솔루션 (Customized Integrated Solutions). 엔디넥스는 신뢰할 수 있는 근거(Evidence)를 기반으로, 변화하는 보건의료 패러다임에 최적화된 고객 맞춤형 통합 솔루션을 제공합니다."
 };
 
 const SERVICES_KO: Service[] = [
@@ -186,7 +186,7 @@ const SERVICES_KO: Service[] = [
     id: 'heor',
     title: 'HEOR',
     description: "임상적 유용성과 비용효과성을 입증하는 과학적이고 체계적인 가치 평가",
-    longDescription: "가치 기반 헬스케어(Value-based Healthcare) 시대, 견고한 경제적 근거는 선택이 아닌 필수입니다. NDNEX는 심평원(HIRA) 및 글로벌 가이드라인을 준수하는 엄격한 HEOR 연구를 수행합니다. 직접 비교 임상이 부재한 경우에도 MAIC, NMA 등 고도화된 방법론을 통해 근거를 합성하며, 투명하고 설득력 있는 경제성 평가 모델(CEA, BIM)을 구축하여 비용효과성을 명확히 입증합니다.",
+    longDescription: "가치 기반 헬스케어(Value-based Healthcare) 시대, 체계적인 근거는 선택이 아닌 필수입니다.. NDNEX는 심평원(HIRA) 및 글로벌 가이드라인을 준수하는 엄격한 HEOR 연구를 수행합니다. 직접 비교 임상이 부재한 경우에도 MAIC, NMA 등 고도화된 방법론을 활용해 근거를 통합하고, 투명하고 설득력 있는 경제성 평가 모델(CEA, BIM)을 구축하여 비용효과성을 입증합니다.",
     iconName: 'BarChart',
     features: [
       "Matching-adjusted Indirect Comparison (MAIC) & NMA",
@@ -396,16 +396,16 @@ export const UI_TEXT = {
     clientsDesc: "국내외 60개 이상의 제약·바이오 및 의료기기 선도 기업이\n복잡한 시장 진입과 가치 입증 과제를 해결하는 파트너로 엔디넥스를 신뢰합니다.",
     viewSuccess: "View Success Stories",
     readyTitle: "Ready to demonstrate value?",
-    readyDesc: "귀사의 Market Access 및 HEOR 요구사항을 논의하기 위해 전문가 팀에 문의하십시오. 우리는 파트너가 될 준비가 되어 있습니다.",
+    readyDesc: "귀사의 Market Access 및 HEOR 과제를 함께 논의하고 싶으시다면 엔디넥스 전문가 팀에 문의해 주십시오. 엔디넥스는 신뢰할 수 있는 파트너로 함께하겠습니다.",
     startConversation: "Start a Conversation",
     philosophy: "Our Philosophy",
     philosophyTitle: "Bridging Science & Strategy",
-    philosophyDesc: "우리의 핵심 가치는 모든 프로젝트의 원동력이 되며, 단순한 데이터가 아닌 시장 성공을 위한 실행 가능한 경로를 제공합니다.",
+    philosophyDesc: "엔디넥스의 핵심 가치는 모든 프로젝트를 움직이는 힘입니다. 엔디넥스는 단순한 데이터가 아니라, 시장 성공으로 이어지는 실행 가능한 전략을 제시합니다.",
     vision: "VISION",
     mission: "MISSION",
     leadership: "Leadership",
     leadershipDesc: "헬스케어 혁신과 환자의 치료 기회 확대를 위한 끊임없는 열정.",
-    leadershipQuote: "우리의 목표는 의료 혁신이 가장 필요한 환자들에게 닿을 수 있도록 견고한 다리를 놓는 것입니다.",
+    leadershipQuote: "의료 혁신이 치료가 가장 필요한 환자들에게 실제 치료 옵션으로 이어지도록 하는 것이 우리의 목표입니다.",
     professionalBackground: "Professional Background",
     expertise: "Our Expertise",
     comprehensive: "Comprehensive",
