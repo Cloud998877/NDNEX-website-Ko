@@ -126,7 +126,7 @@ export const About: React.FC = () => {
                      <div className="md:w-2/5 bg-ndnex-dark text-white p-10 flex flex-col justify-center relative">
                         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20"></div>
                         <div className="relative z-10">
-                          <h3 className="text-3xl font-bold font-display mb-1">{DIRECTOR.name}</h3>
+                          <h3 className="text-2xl font-bold font-display mb-1">{DIRECTOR.name}</h3>
                           <p className="text-ndnex-orange font-bold tracking-widest uppercase text-sm mb-8">{DIRECTOR.role}</p>
                           
                           <div className="space-y-4 text-sm text-gray-300">
