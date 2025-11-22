@@ -56,7 +56,7 @@ export const Home: React.FC = () => {
 
   // List of clients that need smaller logo display (approx 0.5x)
   const SMALL_LOGOS = [
-    "CSL Behring",
+    "CSL Behring"
   ];
 
   // List of clients that need extra small logo display (approx 0.4x)
