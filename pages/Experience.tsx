@@ -83,7 +83,7 @@ export const Experience: React.FC = () => {
             <div className="p-3 bg-blue-50 rounded-xl text-ndnex-blue">
                <BookOpen size={28} />
             </div>
-            <h2 className="text-3xl font-bold text-ndnex-dark font-display">{t.selectedPublications}</h2>
+            <h2 className="text-3xl font-bold text-ndnex-dark font-display">{t.Publications}</h2>
           </div>
 
           <div className="grid gap-6">
