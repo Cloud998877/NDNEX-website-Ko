@@ -8,13 +8,14 @@ export const About: React.FC = () => {
   const { DIRECTOR, COMPANY_INFO } = content;
 
   return (
-    <div className="bg-white min-h-screen font-sans">
+<div className="bg-white min-h-screen font-sans">
       {/* Header with Background Image */}
       <div className="relative py-32 md:py-44 bg-ndnex-dark overflow-hidden">
         <div className="absolute inset-0 z-0">
+          {/* Updated Image: Modern Architecture (No People) */}
           <img 
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2069" 
-            alt="Modern Office Interior" 
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070" 
+            alt="Modern Corporate Architecture" 
             className="w-full h-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-ndnex-dark via-ndnex-dark/90 to-transparent"></div>
@@ -31,6 +32,7 @@ export const About: React.FC = () => {
            </div>
         </div>
       </div>
+
 
       {/* Vision & Mission - Modern Minimalist Design */}
       <section className="py-24 bg-slate-50 overflow-hidden relative">
