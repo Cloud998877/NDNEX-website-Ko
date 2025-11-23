@@ -413,7 +413,7 @@ export const UI_TEXT = {
     solutionsDesc: "약가·급여 및 Market Access 전략에서부터 고도화된 경제성 모델링에 이르기까지, 성공적인 시장 진입을 뒷받침하는 전 주기에 걸친 근거 창출 서비스를 제공합니다.",
     serviceMenu: "Service Menu",
     needProposal: "Need a proposal?",
-    proposalDesc: "귀사의 제품에 딱 맞는 맞춤형 계획을 받아보세요.",
+    proposalDesc: "귀사의 제품 특성에 최적화된 맞춤형 전략 제안을 받아보세요.",
     contactUs: "Contact Us",
     strategicValue: "Strategic Value",
     keyCapabilities: "Key Deliverables & Capabilities",
