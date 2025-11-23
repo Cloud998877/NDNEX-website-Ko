@@ -77,7 +77,7 @@ export const Home: React.FC = () => {
           <img 
             src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=2070" 
             alt="Health Economics and Data Analysis" 
-            className="w-full h-full object-cover"
+            className="w-1/2 h-auto object-cover mx-auto"
           />
 
           {/* Advanced Overlay for Depth */}
