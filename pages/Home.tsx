@@ -75,9 +75,9 @@ export const Home: React.FC = () => {
           
        {/* Updated Image: HEOR Focus - Data Analysis & Economics (Charts/Graphs) */}
           <img 
-            src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=2070" 
+            src="https://images.unsplash.com/photo-1605712916066-e143c317df72?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
             alt="Health Economics and Data Analysis" 
-            className="w-1/2 h-auto object-cover mx-auto"
+            className="w-full h-full object-cover"
           />
 
           {/* Advanced Overlay for Depth */}
