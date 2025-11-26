@@ -10,7 +10,7 @@ const COMPANY_INFO_EN = {
   phone: "02-568-1555",
   email: "info@ndnex.com",
   contactPersonEmail: "hyemin.ku@ndnex.com",
-  mission: "Enhancing Patient Access to Treatment. We aim to expand healthcare coverage and ultimately increase patient access to treatment.",
+  mission: "Increasing Patient Access to Treatment. We aim to expand healthcare coverage and ultimately increase patient access to treatment.",
   vision: "Customized Integrated Solutions. We provide tailored solutions that respond to changes in the healthcare paradigm with reliable evidence generation."
 };
 
@@ -21,6 +21,7 @@ const SERVICES_EN: Service[] = [
     description: "Expert consulting for effective and efficient market entry of healthcare technologies.",
     longDescription: "Navigating the complex reimbursement landscape in Korea requires a strategic approach grounded in deep regulatory knowledge. Our Market Access Consulting service provides end-to-end support, from early-stage feasibility checks to final pricing negotiations. We develop compelling value stories that align with payer priorities, ensuring your innovation is recognized and rewarded. Whether for new drug listings or expanding coverage indications, we provide the strategic insight needed to overcome barriers to entry.",
     iconName: 'Globe',
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2072",
     features: [
       "Value Identification and Value Story Development",
       "Pricing Feasibility Check",
@@ -37,6 +38,7 @@ const SERVICES_EN: Service[] = [
     description: "Scientific, systematic, and comprehensive value assessment of efficacy, safety, and cost-effectiveness.",
     longDescription: "In an era of value-based healthcare, robust economic evidence is essential. NDNEX specializes in rigorous Health Economics and Outcomes Research (HEOR) that meets the high standards of HIRA and global HTA bodies. We employ advanced methodologies, including Matching-adjusted Indirect Comparisons (MAIC) and Network Meta-Analyses (NMA), to synthesize evidence even when head-to-head trials are unavailable. Our economic models (CEA, BIM) are built to be transparent, adaptable, and persuasive, demonstrating the clear cost-effectiveness of your technology.",
     iconName: 'BarChart',
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2070",
     features: [
       "Matching-adjusted Indirect Comparison (MAIC) & Network Meta-Analysis (NMA)",
       "Cost-Effectiveness Analysis (CEA) & Decision Modeling",
@@ -52,6 +54,7 @@ const SERVICES_EN: Service[] = [
     description: "Generating real-world data evidence for regulatory and reimbursement decision-making.",
     longDescription: "Clinical trials often do not capture the full picture of a treatment's performance in routine practice. Our Real World Evidence (RWE) services bridge this gap by leveraging retrospective data to generate evidence that supports regulatory approvals, reimbursement decisions, and post-market safety monitoring. We design and execute high-quality chart review studies and database analyses that reflect the actual patient journey and treatment patterns in Korea, providing the 'real-world' proof payers demand.",
     iconName: 'Database',
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=2070", 
     features: [
       "Epidemiology & Retrospective Database Studies",
       "Administrative and Healthcare Claims Analysis",
@@ -66,6 +69,7 @@ const SERVICES_EN: Service[] = [
     description: "Market analysis big data platform providing representative results using national health insurance claims data.",
     longDescription: "Speed and representativeness are critical in a rapidly changing market. Our proprietary Big Data Analytics platform utilizes vast datasets from the National Health Insurance Service (NHIS) and Health Insurance Review & Assessment Service (HIRA). We provide rapid, representative insights into disease prevalence, patient demographics, and healthcare resource utilization. This data-driven approach allows clients to anticipate market shifts and tailor their strategies with precision based on the entire Korean population.",
     iconName: 'Server',
+    image: "https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?auto=format&fit=crop&q=80&w=2070",
     features: [
       "Rapid analysis turnaround",
       "Representative national data (HIRA, NHIS)",
@@ -156,13 +160,13 @@ const THERAPEUTIC_AREAS_EN: TherapeuticArea[] = [
 const COMPANY_INFO_KO = {
   name: "엔디넥스",
   tagline: "Evidence and Next Solution",
-  description: "보건의료기술의 가치평가 및 Market Access, 시장분석 서비스를 제공하는 헬스케어 전문 컨설팅 기업입니다.",
+  description: "의약품 경제성 평가(PE), Market Access 및 비용효과성 분석(Cost-effectiveness Analysis) 서비스를 제공하는 헬스케어 전문 컨설팅 기업입니다.",
   address: "서울시 강남구 봉은사로 462, 3층 (우 06154)",
   phone: "02-568-1555",
   email: "info@ndnex.com",
   contactPersonEmail: "hyemin.ku@ndnex.com",
-  mission: "환자의 치료접근성 강화 (Enhancing Patient Access). 헬스케어 보장성을 확대하여 환자들이 필요한 치료에 한 걸음 더 가까이 다가갈 수 있도록 기여합니다.",
-  vision: "고객 맞춤형 통합 솔루션 (Customized Integrated Solutions). 엔디넥스는 신뢰할 수 있는 근거(Evidence)를 기반으로, 변화하는 보건의료 패러다임에 최적화된 고객 맞춤형 통합 솔루션을 제공합니다."
+  mission: "환자의 치료접근성 강화 (Increasing Patient Access). 궁극적으로 헬스케어 보장성을 확대하여 환자들이 필요한 치료를 적시에 받을 수 있도록 기여합니다.",
+  vision: "고객 맞춤형 통합 솔루션 (Customized Integrated Solutions). 신뢰할 수 있는 근거(Evidence) 창출을 통해 변화하는 보건의료 패러다임에 최적화된 솔루션을 제시합니다."
 };
 
 const SERVICES_KO: Service[] = [
@@ -172,13 +176,14 @@ const SERVICES_KO: Service[] = [
     description: "신의료기술 및 약제의 효율적인 시장 진입을 위한 전문 Market Access 컨설팅",
     longDescription: "국내 급여 환경의 복잡성을 극복하기 위해서는 규제에 대한 깊은 이해와 정교한 전략이 필수적입니다. NDNEX는 초기 타당성 검토(Feasibility Check)부터 약가 협상 및 등재까지 전 주기에 걸친 맞춤형 컨설팅을 제공합니다. 보험 당국의 니즈를 꿰뚫는 Value Story를 개발하여 혁신 기술의 가치를 극대화하고, 시장 진입의 장벽을 넘어설 수 있는 전략적 인사이트를 제시합니다.",
     iconName: 'Globe',
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2072",
     features: [
       "Value Identification 및 Value Story 개발",
       "약가 타당성 검토 (Pricing Feasibility Check)",
-      "약제평가신청서 작성 및 지원",
+      "급여 등재 신청서(Value Dossier) 작성 및 지원",
       "Pricing & Market Access 전략 수립",
       "의료기술평가 (HTA) 대응",
-      "급여 정책 인사이트 제공",
+      "급여 정책 인사이트(Reimbursement Policy Insight) 제공",
       "급여 적정성 재평가 대응"
     ]
   },
@@ -186,15 +191,16 @@ const SERVICES_KO: Service[] = [
     id: 'heor',
     title: 'HEOR',
     description: "임상적 유용성과 비용효과성을 입증하는 과학적이고 체계적인 가치 평가",
-    longDescription: "가치 기반 헬스케어(Value-based Healthcare) 시대, 체계적인 근거는 선택이 아닌 필수입니다. NDNEX는 심평원(HIRA) 및 글로벌 가이드라인을 준수하는 엄격한 HEOR 연구를 수행합니다. 직접 비교 임상이 부재한 경우에도 MAIC, NMA 등 고도화된 방법론을 활용해 근거를 통합하고, 투명하고 설득력 있는 경제성 평가 모델(CEA, BIM)을 구축하여 비용효과성을 입증합니다.",
+    longDescription: "가치 기반 헬스케어(Value-based Healthcare) 시대, 견고한 경제적 근거는 선택이 아닌 필수입니다. NDNEX는 심평원(HIRA) 및 글로벌 가이드라인을 준수하는 엄격한 의약품 경제성 평가(HEOR) 연구를 수행합니다. 직접 비교 임상이 부재한 경우에도 MAIC, NMA 등 고도화된 방법론을 통해 근거를 합성하며, 투명하고 설득력 있는 경제성 평가 모델(CEA, BIM)을 구축하여 비용효과성을 명확히 입증합니다.",
     iconName: 'BarChart',
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2070",
     features: [
       "Matching-adjusted Indirect Comparison (MAIC) & NMA",
-      "비용 효과 분석 & 의사결정 모델링",
-      "재정 영향 분석",
-      "체계적 문헌 고찰 & 메타 분석",
-      "질병 부담 및 불확실성 분석",
-      "환자 자기평가 건강상태"
+      "비용 효과 분석(CEA) & 의사결정 모델링",
+      "재정 영향 분석(Budget Impact Analysis)",
+      "체계적 문헌 고찰(SLR) & 메타 분석",
+      "Economic Burden 및 불확실성 분석",
+      "PRO (Patient reported outcome) & Utility Assessment"
     ]
   },
   {
@@ -203,12 +209,13 @@ const SERVICES_KO: Service[] = [
     description: "인허가 및 급여 의사결정을 지원하는 실제 임상 데이터(RWD) 근거 창출",
     longDescription: "통제된 임상시험 환경과 실제 진료 현장 간의 간극을 메우기 위해 RWE(Real World Evidence)의 중요성이 커지고 있습니다. 우리는 후향적 데이터 분석 및 차트 리뷰(Chart Review)를 통해 허가, 급여 등재, 시판 후 안전성 관리에 필요한 실제 임상 근거를 생성합니다. 한국의 실제 환자 여정(Patient Journey)과 치료 패턴을 반영한 고품질 연구를 통해 보험 당국이 신뢰할 수 있는 근거를 마련합니다.",
     iconName: 'Database',
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=2070", 
     features: [
-      "역학 및 후향적 데이터베이스 연구",
+      "역학(Epidemiology) 및 후향적 데이터베이스 연구",
       "청구자료 및 행정 데이터 분석",
-      "의무기록 검토 연구",
-      "환자 및 의료진 설문조사",
-      "연구 결과 기반 논문 게재 지원"
+      "의무기록 검토 연구 (Chart Review)",
+      "환자 및 의료진 설문조사 (Survey)",
+      "연구 결과 기반 논문 게재(Publication) 지원"
     ]
   },
   {
@@ -217,8 +224,9 @@ const SERVICES_KO: Service[] = [
     description: "전국민 건강보험 청구자료를 활용한 시장분석 빅데이터 플랫폼",
     longDescription: "시장의 흐름을 읽기 위해서는 속도와 대표성이 관건입니다. NDNEX는 건강보험심사평가원(HIRA) 및 국민건강보험공단(NHIS)의 전수 데이터를 분석하여 질병의 유병률, 환자 특성, 의료 자원 이용 현황에 대한 신속하고 정확한 인사이트를 제공합니다. 이러한 데이터 기반 접근은 시장 변화를 선제적으로 예측하고 정교한 전략을 수립하는 토대가 됩니다.",
     iconName: 'Server',
+    image: "https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?auto=format&fit=crop&q=80&w=2070",
     features: [
-      "신속한 분석 결과 제공",
+      "신속한 분석 결과(Rapid Turnaround) 제공",
       "대표성 있는 전국민 데이터 활용 (HIRA, NHIS)",
       "플랫폼 기반의 다양한 데이터 제공",
       "급변하는 시장 환경에 대한 빠른 대응"
@@ -350,7 +358,7 @@ export const UI_TEXT = {
     inquireAbout: "Inquire about this",
     deepExpertise: "Deep Expertise",
     therapeuticAreas: "Therapeutic Areas",
-    Publications: "Publications",
+    selectedPublications: "Selected Publications",
     readArticle: "Read Article",
     getInTouch: "Get in Touch",
     contactDesc: "Interested in our services or have a question? Reach out to our team directly.",
@@ -380,7 +388,7 @@ export const UI_TEXT = {
     heroBadge: "Evidence-Based Healthcare Solutions",
     heroTitlePrefix: "Scientific Rigor Meets",
     heroTitleHighlight: "Healthcare Value",
-    heroDescription: "엔디넥스는 헬스케어 가치를 성공적인 급여 등재로 이어주는 전문 파트너입니다. \n환자의 치료 접근성 향상을 목표로, 세계적 수준의 HEOR와 Market Access 역량을 기반으로 한 데이터 기반 전략 솔루션을 제공합니다.",
+    heroDescription: "엔디넥스는 헬스케어 가치를 성공적인 급여 등재로 이어주는 전문 파트너입니다. 환자의 치료 접근성 향상을 목표로, 세계적 수준의 HEOR와 Market Access 역량을 기반으로 한 데이터 기반 전략 솔루션을 제공합니다.",
     exploreServices: "Explore Services",
     viewExperience: "View Experience",
     whyNdnex: "Why NDNEX",
@@ -389,31 +397,31 @@ export const UI_TEXT = {
     whyTitleHighlight2: "Access",
     whyDescription: "급변하는 헬스케어 환경에서 데이터는 전략적 인사이트와 결합될 때 비로소 진정한 가치를 발휘합니다.\n엔디넥스는 깊이 있는 과학적 전문성과 시장에 대한 예리한 통찰을 바탕으로, 주요 의사결정권자를 설득할 수 있는 강력한 Value Story를 구축합니다.",
     evidenceGeneration: "Evidence Generation",
-    evidenceDesc: "데이터 기반 통찰력을 통해 규제 및 급여 성공을 보장",
+    evidenceDesc: "데이터 기반 통찰력을 통해 규제 및 급여 성공을 보장하는 강력한 방법론.",
     learnMission: "Learn about our Mission",
     learnMore: "Learn More",
     ourClients: "Our Clients",
-    clientsDesc: "국내외 60개 이상의 제약·바이오 및 의료기기 선도 기업이\n복잡한 시장 진입과 가치 입증 과제를 해결하는 파트너로 엔디넥스를 신뢰합니다.",
+    clientsDesc: "국내외 60개 이상의 제약·바이오 및 의료기기 선도 기업이 성공적인 시장 진입과 제품 가치 평가를 위한 파트너로 엔디넥스를 신뢰하고 있습니다.",
     viewSuccess: "View Success Stories",
     readyTitle: "Ready to demonstrate value?",
-    readyDesc: "귀사의 Market Access 및 HEOR 과제를 함께 논의하고 싶으시다면 \n엔디넥스 전문가 팀에 문의해 주십시오. \n엔디넥스는 신뢰할 수 있는 파트너로 함께하겠습니다.",
+    readyDesc: "귀사의 Market Access 및 HEOR 요구사항을 논의하기 위해 전문가 팀에 문의하십시오. 우리는 파트너가 될 준비가 되어 있습니다.",
     startConversation: "Start a Conversation",
     philosophy: "Our Philosophy",
     philosophyTitle: "Bridging Science & Strategy",
-    philosophyDesc: "엔디넥스의 핵심 가치는 모든 프로젝트를 움직이는 힘입니다. \n엔디넥스는 단순한 데이터가 아니라, 시장 성공으로 이어지는 실행 가능한 전략을 제시합니다.",
+    philosophyDesc: "우리의 핵심 가치는 모든 프로젝트의 원동력이 되며, 단순한 데이터가 아닌 시장 성공을 위한 실행 가능한 경로를 제공합니다.",
     vision: "VISION",
     mission: "MISSION",
     leadership: "Leadership",
     leadershipDesc: "헬스케어 혁신과 환자의 치료 기회 확대를 위한 끊임없는 열정.",
-    leadershipQuote: "의료 혁신이 치료가 가장 필요한 환자들에게 실제 치료 옵션으로 이어지도록 하는 것이 우리의 목표입니다.",
+    leadershipQuote: "우리의 목표는 의료 혁신이 가장 필요한 환자들에게 닿을 수 있도록 견고한 다리를 놓는 것입니다.",
     professionalBackground: "Professional Background",
     expertise: "Our Expertise",
     comprehensive: "Comprehensive",
     solutions: "Solutions",
-    solutionsDesc: "약가·급여 및 Market Access 전략에서부터 고도화된 경제성 모델링에 이르기까지, \n성공적인 시장 진입을 뒷받침하는 전 주기에 걸친 근거 창출 서비스를 제공합니다.",
+    solutionsDesc: "규제 전략부터 복잡한 경제성 모델링까지, 성공적인 시장 진입에 필요한 End-to-End 근거 창출 서비스를 제공합니다.",
     serviceMenu: "Service Menu",
     needProposal: "Need a proposal?",
-    proposalDesc: "귀사의 제품 특성에 최적화된 맞춤형 전략 제안을 받아보세요.",
+    proposalDesc: "귀사의 제품에 딱 맞는 맞춤형 계획을 받아보세요.",
     contactUs: "Contact Us",
     strategicValue: "Strategic Value",
     keyCapabilities: "Key Deliverables & Capabilities",
@@ -421,15 +429,15 @@ export const UI_TEXT = {
     inquireAbout: "Inquire about this",
     deepExpertise: "Deep Expertise",
     therapeuticAreas: "Therapeutic Areas",
-    Publications: "Publications",
+    selectedPublications: "Selected Publications",
     readArticle: "Read Article",
-    getInTouch: "문의 및 상담",
-    contactDesc: "엔디넥스의 서비스가 궁금하신가요? \n언제든지 엔디넥스 팀에 편하게 문의해 주세요.",
-    visitUs: "위치",
-    callUs: "연락처",
-    emailUs: "Email",
+    getInTouch: "Get in Touch",
+    contactDesc: "서비스에 관심이 있거나 질문이 있으신가요? NDNEX 팀에게 직접 문의해주세요.",
+    visitUs: "Visit Us",
+    callUs: "Call Us",
+    emailUs: "Email Us",
     sendMessage: "Send a Message",
-    replyTime: "문의주신 내용에 대해 이메일 주소로 회신을 드리겠습니다.",
+    replyTime: "보통 24시간 이내에 답변 드립니다.",
     name: "Name",
     email: "Email",
     subject: "Subject",
@@ -491,55 +499,48 @@ export const PUBLICATIONS: Publication[] = [
 ];
 
 export const CLIENTS: Client[] = [
+  // Ahn-Gook: Custom SVG (Safe & Accurate)
   { 
     name: "Ahn-Gook", 
-    logo: "https://www.awonder.co.kr/shopimages/ahngookthc/all_og__20250611165401phpFY489X.jpg",
+    logo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 100'%3E%3Cg transform='translate(10,10) scale(0.8)'%3E%3Cpath d='M20,70 Q10,40 40,20 Q70,10 90,30 Q100,50 80,80 Q50,90 20,70 Z' fill='%23E60012' /%3E%3Cpath d='M20,70 L45,45 M25,75 L50,50 M30,80 L55,55 M35,85 L60,60 M40,90 L65,65 M45,95 L70,70 M50,100 L75,75 M55,105 L80,80 M60,110 L85,85' stroke='white' stroke-width='3' /%3E%3C/g%3E%3Ctext x='90' y='60' font-family='sans-serif' font-weight='bold' font-size='40' fill='%23333'%3E안국약품(주)%3C/text%3E%3C/svg%3E",
     link: "https://www.ahn-gook.com/" 
   },
-  { name: "Amgen", logo: "https://logos-world.net/wp-content/uploads/2023/06/Amgen-Logo.jpg", link: "https://www.amgen.co.kr/" },
+  { name: "Amgen", logo: getLogo("amgen.com"), link: "https://www.amgen.co.kr/" },
   { name: "Astellas", logo: getLogo("astellas.com"), link: "https://www.astellas.com/kr/" },
   { name: "AstraZeneca", logo: getLogo("astrazeneca.com"), link: "https://www.astrazeneca.co.kr/" },
+  // BeOne: Custom SVG (Safe & Accurate)
   { 
     name: "BeOne", 
-    logo: "https://cdn.cookielaw.org/logos/51fa3978-59cb-4e5a-8700-81a96d2641f1/01959608-9da4-7326-803e-18390b0b228b/e8c3961c-efcf-4274-bdc6-c0749adc1e27/Beone.png", 
+    logo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 60'%3E%3Crect x='0' y='5' width='50' height='50' rx='10' fill='%23E31B23'/%3E%3Cpath d='M25 10 Q35 25 50 25 Q35 35 25 50 Q15 35 0 35 Q15 25 25 10' fill='white'/%3E%3Ctext x='60' y='45' font-family='Arial, sans-serif' font-weight='bold' font-size='40' fill='%231A2B4A'%3EBe%3C/text%3E%3Ctext x='115' y='45' font-family='Arial, sans-serif' font-weight='bold' font-size='40' fill='%23E31B23'%3EOne%3C/text%3E%3C/svg%3E", 
     link: "https://beonemedicines.kr/" 
   }, 
+  // Binex: Custom SVG (Safe & Accurate)
   { 
     name: "Binex", 
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNKUe7AGF4_5o92a1W5wNK98oZze9Q9xyVFQ&s", 
+    logo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 60'%3E%3Cpath d='M10 10h180l-20 40H10z' fill='%23DA291C'/%3E%3Ctext x='95' y='43' font-family='Arial, sans-serif' font-weight='bold' font-size='38' fill='white' text-anchor='middle'%3EBINEX%3C/text%3E%3C/svg%3E", 
     link: "http://www.bi-nex.com/" 
   },
-  { 
-    name: "Biogen", 
-    logo: "https://kr.biogen.com/content/dam/corporate/international/global/en-US/global/OG-images/og_biogen_logo.jpg", 
-    link: "https://www.biogen.com/home.html" 
-  },
+  { name: "Biogen", logo: getLogo("biogen.com"), link: "https://www.biogen.com/home.html" },
   { name: "Boehringer Ingelheim", logo: getLogo("boehringer-ingelheim.com"), link: "https://www.bikr.co.kr/" },
-  { name: "Bristol Myers Squibb", logo: "https://www.bms.com/media/media-library/corporate-resources/bms-logo/_jcr_content/par/subject_copy_copy_co_969178463.respimg.jpg/1731506928883/bms-logo-rgb-pos-with-border.jpg", link: "https://www.bms.com/kr" },
+  { name: "Bristol Myers Squibb", logo: getLogo("bms.com"), link: "https://www.bms.com/kr" },
   { name: "Chong Kun Dang", logo: getLogo("ckdpharm.com"), link: "http://www.ckdpharm.com/" },
+  // CSL Behring: Custom SVG (Safe & Accurate)
   { 
     name: "CSL Behring", 
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMY3huhMI5wFlSO_IDyh3c5atkxl7cb9CVng&s", 
+    logo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 80'%3E%3Ctext x='10' y='50' font-family='Arial, sans-serif' font-weight='bold' font-size='48' fill='%23E31837'%3ECSL%3C/text%3E%3Ctext x='110' y='50' font-family='Arial, sans-serif' font-weight='bold' font-size='48' fill='%2358595B'%3EBehring%3C/text%3E%3Ctext x='112' y='70' font-family='Arial, sans-serif' font-size='14' fill='%2358595B'%3EBiotherapies for Life™%3C/text%3E%3C/svg%3E", 
     link: "https://www.cslbehring.co.kr/" 
   },
-  { 
-    name: "Daewoo", 
-    logo: "https://i.ytimg.com/vi/an1DMelQsAk/maxresdefault.jpg", 
-    link: "http://www.dwpharm.co.kr/" 
-  },
+  { name: "Daewoo", logo: getLogo("dwpharm.co.kr"), link: "http://www.dwpharm.co.kr/" },
   { name: "Daewoong", logo: getLogo("daewoong.co.kr"), link: "https://www.daewoong.co.kr/" },
   { name: "Daewon", logo: getLogo("daewonpharm.com"), link: "https://www.daewonpharm.com/" },
   { name: "Daiichi-Sankyo", logo: getLogo("daiichisankyo.com"), link: "http://www.daiichisankyo.co.kr/" },
   { name: "Dongkook", logo: getLogo("dkpharm.co.kr"), link: "https://www.dkpharm.co.kr/" },
-  { 
-    name: "GSK", 
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSh8MPJ3g3BQc9iv2V6AZ5kckB5LOA0L5D8Q&s", 
-    link: "https://kr.gsk.com/" 
-  },
+  { name: "GSK", logo: getLogo("gsk.com"), link: "https://kr.gsk.com/" },
   { name: "Guerbet", logo: getLogo("guerbet.com"), link: "https://www.guerbet.com/ko-kr/" },
+  // Hana: Custom SVG (Safe & Accurate)
   { 
     name: "Hana", 
-    logo: "https://cdn.pharmnews.com/news/photo/200807/img_38694_6537_36618.jpg", 
+    logo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 80'%3E%3Cpath d='M40 10 L40 70 M40 40 Q70 20 90 40 Q100 60 80 75' stroke='%23009CDE' stroke-width='8' fill='none'/%3E%3Ccircle cx='100' cy='20' r='8' fill='%23F58220'/%3E%3Ctext x='40' y='75' font-family='Arial, sans-serif' font-weight='bold' font-size='14' fill='%2358595B'%3EHanaPharm%3C/text%3E%3C/svg%3E", 
     link: "http://www.hanaph.co.kr/index.do" 
   },
   { name: "Handok", logo: getLogo("handok.co.kr"), link: "https://www.handok.co.kr/" },
@@ -551,80 +552,36 @@ export const CLIENTS: Client[] = [
   { name: "Jeil", logo: getLogo("jeilpharm.co.kr"), link: "https://www.jeilpharm.co.kr/" },
   { name: "JW", logo: getLogo("jw-pharma.co.kr"), link: "https://www.jw-pharma.co.kr/" },
   { name: "Kukje", logo: getLogo("kukjepharm.co.kr"), link: "http://www.kukjepharm.co.kr/" },
-  { 
-    name: "Kyowa Kirin", 
-    logo: "https://www.kyowakirin.com/media_center/news_releases/2019/images/e20190205_01.png", 
-    link: "https://www.kyowakirin.com/kr/" 
-  },
-  { 
-    name: "Lilly", 
-    logo: "https://images.seeklogo.com/logo-png/8/3/lilly-logo-png_seeklogo-84218.png", 
-    link: "https://www.lilly.co.kr/" 
-  },
-  { 
-    name: "LitePharmTech", 
-    logo: "https://logo-resources.thevc.kr/organizations/200x200/153903dd1c2daac632e660e27ad7061f3c9516a6cbcd3cb174f5a5530cdf15ee_1674195948833225.jpg", 
-    link: "http://www.litepharm.com/" 
-  },
+  { name: "Kyowa Kirin", logo: getLogo("kyowakirin.com"), link: "https://www.kyowakirin.com/kr/" },
+  { name: "Lilly", logo: getLogo("lilly.com"), link: "https://www.lilly.co.kr/" },
+  { name: "LitePharmTech", logo: getLogo("litepharmtech.com"), link: "http://www.litepharm.com/" },
   { name: "Merck", logo: getLogo("merckgroup.com"), link: "https://www.merckgroup.com/kr-ko" }, 
-  { 
-    name: "Mitsubishi Tanabe", 
-    logo: "https://lh4.googleusercontent.com/proxy/ApyTbjXCwmDyUkIxf35xp664fejbNw8B3vUF4Cs_umk_XXjqj5m5ItdYto2g_82CFSdRap-GYXfo6K2zOzhUnab3eA", 
-    link: "http://www.mt-pharma-korea.com/" 
-  },
+  { name: "Mitsubishi Tanabe", logo: getLogo("mt-pharma.co.jp"), link: "http://www.mt-pharma-korea.com/" },
   { name: "MSD", logo: getLogo("msd.com"), link: "https://www.msd-korea.com/" },
-  { 
-    name: "Myungin", 
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsuU8v1hmqs_kqGeI56SHIGga-gnusVg88SA&s", 
-    link: "http://myunginph.co.kr/main/ko/index.html" 
-  },
+  { name: "Myungin", logo: getLogo("myungin.co.kr"), link: "http://myunginph.co.kr/main/ko/index.html" },
   { name: "Myungmoon", logo: getLogo("mmpharm.co.kr"), link: "http://www.mmpharm.co.kr/" },
   { name: "Novartis", logo: getLogo("novartis.com"), link: "https://www.novartis.co.kr/" },
   { name: "Novo Nordisk", logo: getLogo("novonordisk.com"), link: "https://www.novonordisk.co.kr/" },
   { name: "Ono", logo: getLogo("ono-pharma.com"), link: "https://kr.ono-pharma.com/" },
-  { 
-    name: "Optus", 
-    logo: "https://cdn-pro-web-217-134.cdn-nhncommerce.com/optuspharm76_godomall_com/data/commonimg/ico_kr.png", 
-    link: "http://optuspharm.com/" 
-  },
-  { 
-    name: "Otsuka", 
-    logo: "https://www.otsuka.co.kr/img/user/company/ci_intro.png", 
-    link: "http://www.otsuka.co.kr/" 
-  },
+  { name: "Optus", logo: getLogo("optuspharm.com"), link: "http://optuspharm.com/" },
+  { name: "Otsuka", logo: getLogo("otsuka.co.jp"), link: "http://www.otsuka.co.kr/" },
   { name: "Pfizer", logo: getLogo("pfizer.com"), link: "https://www.pfizer.co.kr/" },
   { name: "PharmaEssentia", logo: getLogo("pharmaessentia.com"), link: "https://kr.pharmaessentia.com/modules/catalogue_history2/cg_index.html" },
   { name: "PPD", logo: getLogo("ppd.com"), link: "https://www.ppd.com/" },
   { name: "Roche", logo: getLogo("roche.com"), link: "https://www.roche.co.kr/" },
   { name: "Samchundang", logo: getLogo("scd.co.kr"), link: "http://www.scd.co.kr/" },
-  { 
-    name: "Samil", 
-    logo: "https://www.docdocdoc.co.kr/news/photo/201704/1041167_1102755_213.jpg", 
-    link: "http://www.samil-pharm.com/" 
-  },
+  { name: "Samil", logo: getLogo("samil-pharm.com"), link: "http://www.samil-pharm.com/" },
   { name: "Samjin", logo: getLogo("samjinpharm.co.kr"), link: "https://www.samjinpharm.co.kr/" },
   { name: "Santen", logo: getLogo("santen.com"), link: "http://www.santen.co.kr/" },
-  { name: "Sanofi", logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkkorGpZpmndeL82pWI5iFUVQx90QwPK6hLQ&s", link: "https://www.sanofi.co.kr/" },
+  { name: "Sanofi", logo: getLogo("sanofi.com"), link: "https://www.sanofi.co.kr/" },
   { name: "Servier", logo: getLogo("servier.com"), link: "https://www.servier.co.kr/" },
   { name: "Shin Poong", logo: getLogo("shinpoong.co.kr"), link: "https://shinpoong.co.kr/" },
   { name: "Taejoon", logo: getLogo("taejoon.co.kr"), link: "https://www.taejoon.co.kr/" },
   { name: "Takeda", logo: getLogo("takeda.com"), link: "https://www.takeda.com/ko-kr" },
   { name: "UCB", logo: getLogo("ucb.com"), link: "https://www.ucbkorea.co.kr/" },
-  { 
-    name: "WhanIn", 
-    logo: "https://file.alphasquare.co.kr/media/images/stock_logo/kr/016580.png", 
-    link: "https://www.whanin.com/" 
-  },
-  { 
-    name: "Yooyoung", 
-    logo: "https://www.khanews.com/news/photo/201010/20992_3891.jpg", 
-    link: "https://www.yypharm.co.kr/" 
-  },
-  { 
-    name: "Youngjin", 
-    logo: "https://i.namu.wiki/i/zwOhRUjCJYlBSDnzdjys5RV2DisTcDHT96Lc6pgt38D_Qn9Aa9j2-7JI5iEC4kI2IP9Uz8ZHUjcsD5NPJJLO4g.svg", 
-    link: "https://www.yungjin.co.kr/" 
-  }
+  { name: "WhanIn", logo: getLogo("whanin.com"), link: "https://www.whanin.com/" },
+  { name: "Yooyoung", logo: getLogo("yooyoung.co.kr"), link: "https://www.yypharm.co.kr/" },
+  { name: "Youngjin", logo: getLogo("yjpharm.co.kr"), link: "https://www.yungjin.co.kr/" }
 ].sort((a, b) => a.name.localeCompare(b.name));
 
 // Define DISEASE_AREAS before GET_CONTENT
